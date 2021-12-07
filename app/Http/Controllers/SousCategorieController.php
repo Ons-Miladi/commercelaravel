@@ -7,7 +7,7 @@ use DB;
 class SousCategorieController extends Controller
 {
    public function getSousCategories($idcat){
-    $souscats = DB::table('sous_categories')->where('idcat','=', $idcat)->get();
+     $souscats = DB::table('sous_categories')->where('idcat','=', $idcat)->get();
      
        
       return response()->json($souscats,200);
