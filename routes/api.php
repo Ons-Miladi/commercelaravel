@@ -50,3 +50,7 @@ Route::get('getcarectristiques/{id}','CaractController@getCaract');
 
 Route::get('joincategsouscateg','ClientController@joincategsouscateg');
 Route::get('getCaracteristiquesByJointure/{id}','CaractController@getCaracteristiquesByJointure');
+
+
+
+Route::post('AddProductToPanier','ClientController@AddProductToPanier');
